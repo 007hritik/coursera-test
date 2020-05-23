@@ -10,25 +10,87 @@
     font-size: 2em;
     font-weight: 600;
 }
-.menu{
-    padding-left: 10%;
-    padding-right: 10%;
+@media (min-width : 992px){
+    .menu{
+        margin-right:20px ;
+    }
+    .box{
+        width: 30%;
+        background-color: gray;
+        float: right;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 2px solid #000;
+    }
+    .menu-title{
+        float: right;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 1.5em;
+        border-left: 2px solid #000;
+        border-bottom: 2px solid #000;
+        
 
+    }
+    .content{
+        float: left;
+        clear: both;
+    }
+}
+@media (min-width: 768px) and( max-width: 991px){
+    .menu{
+        margin-right:20px ;
+    }
+    .box-1{
+        width: 30%;
+        background-color: gray;
+        float: right;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 2px solid #000;
+    }
+    .box-2{
+        width: 30%;
+        background-color: gray;
+        float: right;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 2px solid #000;
+    }
+    .box-3{
+        display: block;
+        width: 70%;
+        background-color: gray;
+        float: right;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 2px solid #000;
+    }
+    .menu-title{
+        float: right;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 1.5em;
+        border-left: 2px solid #000;
+        border-bottom: 2px solid #000;
+        
+    }
+    .menu-title-1{
+        background-color: pink;
+    }
+    .menu-title-3{
+        background-color: red;
+    }
+    .menu-title-2{
+        background-color: lightyellow;
+    }
+    .content{
+        padding: 5px;
+        float: left;
+        clear: both;
+    }
 }
 
-.box{
-    display: inline-block;
-    background-color: gray;
-    width: 30%;
-    margin: 10px;
-    border: 2px solid black;
-}
-.box_header{
-    display: block;
-    text-align: right;
-    border: 1px solid black;
-}
-.box_1{
-
+@media (max-width:767px){
 
 }
